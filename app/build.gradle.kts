@@ -1,3 +1,5 @@
+
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -42,6 +44,9 @@ dependencies {
     implementation ("androidx.wear:wear:1.2.0")
     implementation ("com.google.android.gms:play-services-wearable:18.0.0")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    implementation ("androidx.wear.compose:compose-material:1.2.0")
+    implementation ("androidx.wear.compose:compose-foundation:1.2.0")
+    implementation ("androidx.activity:activity-compose:1.7.2")
     implementation(libs.play.services.wearable)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
@@ -52,6 +57,7 @@ dependencies {
     implementation(libs.wear.tooling.preview)
     implementation(libs.activity.compose)
     implementation(libs.core.splashscreen)
+    implementation(libs.appcompat)
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
