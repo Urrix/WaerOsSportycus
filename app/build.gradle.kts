@@ -47,6 +47,8 @@ dependencies {
     implementation ("androidx.wear.compose:compose-material:1.2.0")
     implementation ("androidx.wear.compose:compose-foundation:1.2.0")
     implementation ("androidx.activity:activity-compose:1.7.2")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation(libs.play.services.wearable)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
